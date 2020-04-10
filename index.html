@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="history" class="calculator" name="history"></div>
+    <section>
+      <div id="display" class="calculator" name="display"></div>
+      <form class="calculator" name="calculator">
+        <input class="num" id="CE" type="button" value="CE" />
+        <input class="num" id="C" type="button" value="C" />
+        <input class="num" id="sqr" type="button" value="sqr" />
+        <input class="num" id="root" type="button" value="root" />
+
+        <div id="operator">
+          <input class="num" id="7" type="button" value="7" />
+          <input class="num" id="8" type="button" value="8" />
+          <input class="num" id="9" type="button" value="9" />
+          <input class="num" id="+" type="button" value="+" />
+        </div>
+
+        <div class="number">
+          <input class="num" id="4" type="button" value="4" />
+          <input class="num" id="5" type="button" value="5" />
+          <input class="num" id="6" type="button" value="6" />
+          <input class="num" id="-" type="button" value="-" />
+        </div>
+
+        <div class="number">
+          <input class="num" id="1" type="button" value="1" />
+          <input class="num" id="2" type="button" value="2" />
+          <input class="num" id="3" type="button" value="3" />
+          <input class="num" id="*" type="button" value="*" />
+        </div>
+
+        <div>
+          <input class="num" id="0" type="button" value="0" />
+          <input class="num" id="." type="button" value="." />
+          <input class="num" id="=" type="button" value="=" />
+          <input class="num" id="div" type="button" value="/" />
+        </div>
+      </form>
+    </section>
+
+    <script src="app.js"></script>
+    <script src="sound.js"></script>
+    <script src="keyboardEvents.js"></script>
+    <script src="buttonFuntions.js"></script>
+    <script src="functions.js"></script>
+  </body>
+</html>
